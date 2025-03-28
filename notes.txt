@@ -1,0 +1,84 @@
+java -> logic , java code 
+web app -> html , css, js, web-page 
+
+
+
+java -> db , request , tmp data , validation 
+MVC --> 
+
+
+	java -> 
+		com
+			google 
+				controller 
+				dao 
+				bean 
+				util 
+-----------------------------------------------------		
+	core-java -> 
+			java.util 
+					Scanner 
+					Date
+			java.applet  
+					Applet
+			java.lang 
+				String 
+				System
+				Math 
+	import ---> java 
+
+	rt.jar 
+	
+adv java ?  java ? 
+
+	javax
+
+  	import javax.servlet 
+	
+	
+do we have javax? no
+
+lib -> servlet-api.jar
+			1) tomcat server 
+			2) official site [ internet ]  
+ 
+
+how to add servlet.jar in your project?
+	right click project -> properties -> java buildpath -> 
+	libraries tab -> class path tap -> add external jar -> 
+	browse -> appachetomcat/lib/servlet-api.jar -> open ->
+	order and export tab -> select all -> apply and close 
+
+----------------------------------------------------------------------
+
+	
+	
+	
+	
+	No.1 	[	 ]
+	No.2 	[	 ]
+	
+	Choice : 
+			() Add 
+			() Sub 
+			() Mul 
+			
+		[ SUBMIT ]
+		
+		choice -> operation perform 	
+	
+
+----------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
