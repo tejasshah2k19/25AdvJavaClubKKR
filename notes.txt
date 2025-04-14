@@ -69,8 +69,27 @@ how to add servlet.jar in your project?
 	
 
 ----------------------------------------------------------------------
-	
-	
+	database -> driver -> 
+	step1: 
+			jar file 
+			mysql 		
+		
+		extract that zip file -> then inside the folder 
+			you will get jar file that need to copy into 
+			project->WEB-INF/lib folder 
+		link-->
+		project->right click->properties-> 
+		javabuildpath -> libraries -> class path click -> 
+		right side -> add jar click -> project->web-inf/lib-> select -> 
+		order and export tab click -> select all -> apply and close.
+			
+	step2: 
+			jdbc connection 
+			util -> 		
+			create a class DbConnection 
+			public static Connection getConnection()
+				
+ -----------------------------------------------------------------    	 
 	
 	
 	
