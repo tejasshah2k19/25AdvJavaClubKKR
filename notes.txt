@@ -91,6 +91,87 @@ how to add servlet.jar in your project?
 				
  -----------------------------------------------------------------    	 
 	
+web payment -> paypal , razorpay, paytm , upi 
+
+jar/lib/api 
+		
+			upi.jar v12
+					rbi.jar v15 
+						sbi.jar  v18 
+							
+maven -> lib -> sub lib -> version 
+
+		upi jar-> 	
+	
+	
+	
+inclusion 
+	static inclusion  : <%@include file=""%>
+	code 
+	
+	dynamic inclusion : <jsp:include page=""/>	
+	output 
+	
+	
+	A.jsp : 10 line 
+	
+	H.jsp : 15 line 
+	
+	F.jsp : 20 line  
+
+	A.jsp => 	static inclusion : H.jsp 
+				dynamic inclusion : F.jsp 
+	A.jsp => total line { 10 + 15 } => 25 
+------------------------------------------------------------------------------------
+
+
+git
+filter
+listener 
+session 
+cookie 
+jstl 
+
+------------------------------------------------------------------------------------
+filter -> 
+			pre process the request 
+			
+			
+			request ---> server{servlet} ----> response 
+			request ----> filter ---->{servlet}-----> response 
+			
+1) class implements Filter
+2) init doFilter destroy
+3) @WebFilter 
+
+-------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

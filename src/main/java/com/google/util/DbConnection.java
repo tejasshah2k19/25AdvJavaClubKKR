@@ -19,7 +19,7 @@ public class DbConnection {
 
 			//open 
 			con = DriverManager.getConnection(url,userName,password);
-			System.out.println("dbconnected....");
+			System.out.println("dbconnected...."+con);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
