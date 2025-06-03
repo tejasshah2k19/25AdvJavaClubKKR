@@ -13,6 +13,11 @@
 		<br>
 		<input type="submit" value="Submit"/>
 	</form>
+	
+<Br> 
+	<Br>
+	<a href="LogoutServlet">Logout</a>
+
 
 </body>
 </html>

@@ -146,14 +146,49 @@ filter ->
 
 -------------------------------------------------------------------------------------
 
+cookie -> user information 
+
+amazon -> welcome , Tejas 
+
+login -> cookie -> userName 
 
 
+cookie -> browser -> client side => 
 
 
+.jsp -> userName -> cookie -> browser -> 
 
 
+Login.jsp ->	
+		email 
+		password 
+		
+		submit -> 
+					LoginServlet -> 
+							read email , password 
+							
+							correct --> cookie -> email 
+							
+							
+							Cookie c = new Cookie("email",email);
+							response.addCookie(c); // send 
+	 
+Home.jsp
+			${cookie.email.value}
+			
+-----------------------------------------------------------------------------
 
 
+Filter ->  pre process the request 
+
+	Signup.jsp -> submit -> SignupServlet ->validation  , database  -> 
+	
+	Signup.jsp -> submit -> SignupFilter{validation} -> SignupServlet -> DataBase -> 
+
+	1)class implements Filter 
+	2) init, doFilter, destroy  
+	3) @WebFilter 
+	
 
 
 
