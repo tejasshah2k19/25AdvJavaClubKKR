@@ -189,10 +189,31 @@ Filter ->  pre process the request
 	2) init, doFilter, destroy  
 	3) @WebFilter 
 	
+Listener 
+-----------------------------------------------------------------------------
+
+session cookie -> user information 
+
+session - server - secure -> otp cvv ccNum
+cookie - client 
+
+
+Cookie c = new Cookie("email",email);
+response.addCookie(c);
+${cooki.email.value} 
 
 
 
 
+HttpSession session = request.getSession();
+session.setAttribute("email",email); 
+${sessionScope.email}
+
+Logout ->LogoutServlet 
+HttpSession session  = request.getSession();
+session.invalidate();//destroy the session 
+
+-----------------------------------------------------------------------------
 
 
 
